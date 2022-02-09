@@ -1,0 +1,61 @@
+@media screen and (max-width: 375px){
+    @font-face {
+        font-family: 'Inter';
+        src: url('Inter-Regular.ttf') format('TrueType');
+    }
+
+    body {
+        background-color: #1c1938;
+    }
+    #container {
+      color: white;
+      background-color: black;
+      width: 85%;
+      margin: auto;
+      padding: 20% 0 14% 0;
+    }
+    #sub_container{
+        background-color: #1c1938;
+        margin: auto 7%;
+        border-radius: 0 0 4% 0%;
+    }
+    .header_picture{
+        width: 100%;
+        border-radius: 4% 4% 0 0;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 30px 15px 20px 15px;
+        font-family:'Inter';
+    }
+    .title_purple{
+        color:  hsl(277, 64%, 61%);
+    }
+    .card_text{
+        text-align: center;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 1.4;
+        font-size: 1rem;
+        padding: 0 20px 30px 20px;
+    }
+    .informations{
+
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+
+    }
+    .number{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 0.3rem;
+    }
+    .about{
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        font-size: 0.7rem;
+    }
+}
